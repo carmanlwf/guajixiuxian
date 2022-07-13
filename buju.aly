@@ -1,0 +1,72 @@
+{
+  AbsoluteLayout;
+  background="zhujie";
+  layout_width="fill";
+  layout_height="fill";
+  {
+    LinearLayout;
+    layout_y="500dp";
+    layout_width="fill";
+    layout_height="6%h";
+    layout_x="0";
+    {
+      Button;
+      text="角色";
+      onClick=function rolemenu() end;
+      layout_width="18%w";
+    };
+    {
+      Button;
+      text="储物";
+      onClick=function OpenBag() end;
+      layout_width="18%w";
+    };
+    {
+      Button;
+      layout_width="18%w";
+      onClick=function OpenSkillMenu() end;
+      text="功法";
+    };
+    {
+      Button;
+      layout_width="18%w";
+      text="历练";
+      onClick=function openbattlemap() end;
+    };
+  };
+  {
+    LinearLayout;
+    layout_width="fill";
+    layout_height="6%h";
+    layout_y="550dp";
+    {
+      Button;
+      onClick=function 排行榜() end;
+      layout_width="18%w";
+      text="排行";
+    };
+    {
+      Button;
+      onClick=function 交易所(0,100) end;
+      layout_width="18%w";
+      text="交易";
+    };
+    {
+      Button;
+      onClick=function shouce() end;
+      layout_width="18%w";
+      text="手册";
+    };
+  };
+  {
+    LinearLayout;
+    layout_width="fill";
+    layout_height="6%h";
+    layout_y="600dp";
+    {
+      Button;
+      text="退出游戏";
+      onClick=function OffGame() end;
+    };
+  };
+};

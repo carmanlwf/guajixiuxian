@@ -1,0 +1,18 @@
+appname="挂机修仙传"
+appver="1.48"
+appcode="148"
+appsdk="15"
+path_pattern=""
+packagename="com.guaji.xiuxianzhuan"
+app_key=""
+app_channel=""
+developer=""
+description=""
+debugmode=false
+user_permission={
+  "GET_PACKAGE_SIZE",
+  "INTERNET",
+  "READ_EXTERNAL_STORAGE",
+  "WAKE_LOCK",
+  "WRITE_EXTERNAL_STORAGE"
+}

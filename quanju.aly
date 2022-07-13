@@ -1,0 +1,5 @@
+{
+  ["主角剧情"]=
+  {round=1,condition={{key="should_kill",value={key="长毛猪",number=5}}}
+  }
+}
